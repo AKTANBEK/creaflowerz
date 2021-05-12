@@ -26,4 +26,4 @@ class Social(models.Model):
         verbose_name_plural = 'Соц сети'
 
     def __str__(self):
-        return f'{self.contact.phone} at {self.name}'
+        return f'{self.contact_id.phone} at {self.name}'
